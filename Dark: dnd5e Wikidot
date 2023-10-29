@@ -1,9 +1,11 @@
-@-moz-document url-prefix("http://dnd5e.wikidot.com/") {
 /* ==UserStyle==
-@name         Dark: dnd5e Wikidot
-@author       BackPackAbe
-@description  A simple dark theme for the dnd5e wikidot site. I wrote this because I couldn't seem to find a standard dark mode for the site.
+@name           Dark: dnd5e Wikidot
+@namespace      github.com/BackPackAbe
+@version        1.0.0
+@description    A simple dark theme for the dnd5e wikidot site. I wrote this because I couldn't seem to find a standard dark mode for the site.
+@author         BackPackAbe
 ==/UserStyle== */
+@-moz-document url-prefix("http://dnd5e.wikidot.com/") {
 h1 a, h2, #container, #header, #side-bar, #header-extra-div-1, #header-extra-div-2, #header-extra-div-3 {
 	background-color: #101010 !important;
 }
