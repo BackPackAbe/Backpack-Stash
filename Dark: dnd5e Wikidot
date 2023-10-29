@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           Dark: dnd5e Wikidot
-@namespace      github.com/BackPackAbe
+@namespace      https://github.com/BackPackAbe
+@namespace      https://userstyles.world/style/12760/backpackabe
 @version        1.0.0
 @description    A simple dark theme for the dnd5e wikidot site. I wrote this because I couldn't seem to find a standard dark mode for the site.
 @author         BackPackAbe
 ==/UserStyle== */
 @-moz-document url-prefix("http://dnd5e.wikidot.com/") {
-h1 a, h2, #container, #header, #side-bar, #header-extra-div-1, #header-extra-div-2, #header-extra-div-3 {
-	background-color: #101010 !important;
+main, #container, #header, #side-bar, #header-extra-div-1, #header-extra-div-2, #header-extra-div-3 {
+	background-color: black !important;
 }
 
 iframe.html-block-iframe {
@@ -52,6 +53,25 @@ input.text {
 	background-color: #C0C0C0;
 }
 
+.feature{
+    background: #101010;
+    }
+
+body, main .content .feature.offcolor {
+    background-color: #312f2f
+    }
+
+footer, #footer-bar {
+    background: black
+    }
+
+.yui-navset .yui-content {
+    background: #101010
+    }
+
+main .content {
+        background: #101010
+    }
 #toc #toc-action-bar::before, #toc #toc-action-bar a::before, #toc #toc-action-bar a::after {
 	color: inherit;
 }
